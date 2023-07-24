@@ -1,3 +1,3 @@
-export const initState={
-    eggCake:10
+export const initState = {
+    eggCake: 10
 }

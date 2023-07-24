@@ -1,9 +1,5 @@
-import React from 'react'
-
-function Actions() {
-  return (
-    <div>Actions</div>
-  )
+export function buy() {
+  return {
+    type: "BUY"
+  }
 }
-
-export default Actions
