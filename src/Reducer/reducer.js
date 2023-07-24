@@ -1,9 +1,14 @@
-import React from 'react'
+import { initState } from "../States/State";
 
-function reducer() {
-  return (
-    <div>reducer</div>
-  )
+export const reducer=(state=initState,action)=>{
+  switch(action.type){
+    case "BUY":{
+      return{
+        ...state,
+        eggcake:state.eggcake-1
+      }
+    }
+    default:
+      return state;
+  }
 }
-
-export default reducer
