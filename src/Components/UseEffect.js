@@ -16,4 +16,4 @@ function UseEffect() {
   )
 }
 
-export default UseEffect
+export default UseEffect;
