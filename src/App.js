@@ -2,7 +2,7 @@ import { Provider } from 'react-redux';
 import './App.css';
 /* import ArrayUsestate from './Components/ArrayUsestate';
 import InputUsestate from './Components/InputUsestate'; */
-/* import UseEffect from './Components/UseEffect'; */
+import UseEffect from './Components/UseEffect';
 import store from './Store/Store';
 import Dispatch from './Dispatch/Dispatch';
 /* import UsestateForm from './Components/UsestateForm';
@@ -16,10 +16,11 @@ function App() {
         <UsestateForm />
         <InputUsestate />
         <UsestateHooks /> 
-        <UseEffect/>*/}
-        <Provider store={store}>
+        */}
+        <UseEffect/>
+       {/*  <Provider store={store}>
           <Dispatch />
-        </Provider>
+        </Provider> */}
       </header>
     </div>
   );
