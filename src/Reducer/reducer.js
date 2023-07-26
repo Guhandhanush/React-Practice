@@ -1,14 +1,28 @@
 import { initState } from "../States/State";
 
-export const reducer = (state = initState, action) => {
+export const Reducer = (state = initState, action) => {
   switch (action.type) {
-    case "BUY": {
+    case "BUY_COKE":
       return {
-        ...state,
-        eggcake: state.eggcake - 1
+        ...state, coke: state.coke + 1
       }
-    }
-    default:
-      return state;
+
+    case "BUY_BRIYANI":
+      return {
+        ...state, briyani: state.briyani + 1
+      }
+      
+    case "SELL_BRIYANI":
+      return {
+        ...state, briyani: state.briyani - 1
+      }
+
+    case "SELL_COKE":
+      return {
+        ...state, coke: state.coke - 1
+      }
+
+
+    default: return state
   }
 }

@@ -17,10 +17,10 @@ function App() {
         <InputUsestate />
         <UsestateHooks /> 
         */}
-        <UseEffect/>
-       {/*  <Provider store={store}>
+        <UseEffect />
+        <Provider store={store}>
           <Dispatch />
-        </Provider> */}
+        </Provider>
       </header>
     </div>
   );

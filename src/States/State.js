@@ -1,3 +1,4 @@
 export const initState = {
-    eggCake: 10
+    coke: 35,
+    briyani: 25
 }
