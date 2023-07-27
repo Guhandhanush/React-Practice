@@ -11,9 +11,9 @@ function UseEffect() {
   return (
     <>
       <div>
-        <button onClick={() => { setResources('Users') }}>USERS</button>
-        <button onClick={() => { setResources('Posts') }}>POST</button>
-        <button onClick={() => { setResources('Comments') }}>COMMENTS</button>
+        <button className='btn btn-success' onClick={() => { setResources('Users') }}>USERS</button>
+        <button className='btn btn-warning' onClick={() => { setResources('Posts') }}>POST</button>
+        <button className='btn btn-danger' onClick={() => { setResources('Comments') }}>COMMENTS</button>
       </div>
       <div>
         <h2>{resources}</h2>
