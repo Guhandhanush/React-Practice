@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle'
+import 'bootstrap/dist/js/bootstrap.bundle';
 import { Provider } from 'react-redux';
 import './App.css';
 /* import ArrayUsestate from './Components/ArrayUsestate';
