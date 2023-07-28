@@ -10,14 +10,14 @@ function UseEffect() {
   }, [resources])
   return (
     <>
-      <div>
-        <button className='btn btn-success' onClick={() => { setResources('Users') }}>USERS</button>
-        <button className='btn btn-warning' onClick={() => { setResources('Posts') }}>POST</button>
-        <button className='btn btn-danger' onClick={() => { setResources('Comments') }}>COMMENTS</button>
+      <div className='container mt-5'>
+        <button className='btn btn-success me-2' onClick={() => { setResources('Users') }}>USERS</button>
+        <button className='btn btn-warning me-2' onClick={() => { setResources('Posts') }}>POST</button>
+        <button className='btn btn-danger me-2' onClick={() => { setResources('Comments') }}>COMMENTS</button>
       </div>
       <div>
         <h2>{resources}</h2>
-        <div>
+        <div className="container mt-3"> 
           {items.map(item => {
             return <div>{JSON.stringify(item)}</div>
           })}
