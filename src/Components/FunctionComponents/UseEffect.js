@@ -14,9 +14,9 @@ function UseEffect() {
 
   let styles = {
     backgroundColor: '#219ebc',
-    padding:"1%",
-    borderRadius:"15px",
-    color:"black"
+    padding: "1%",
+    borderRadius: "15px",
+    color: "black"
   }
   return (
     <>

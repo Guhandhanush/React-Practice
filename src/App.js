@@ -1,16 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
-/* import { Provider } from 'react-redux'; */
+import { Provider } from 'react-redux';
 import './App.css';
+
+import UseEffect from './Components/FunctionComponents/UseEffect';
+import store from './Store/Store';
+import Dispatch from './Dispatch/Dispatch';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-       {/*  <Provider store={store}>
+        
+        <UseEffect />
+        <Provider store={store}>
           <Dispatch />
-        </Provider> */}
+        </Provider>
       </header>
     </div>
   );
