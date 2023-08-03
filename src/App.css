@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1690743300187-51d68146adf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;

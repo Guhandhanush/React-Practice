@@ -10,9 +10,9 @@ function UsestateHooks() {
      */
     <div>
         <h1>{count}</h1>
-        <button onClick={()=>SetCount(prevCount=> prevCount+1)}>Increment</button> 
-        <button onClick={()=>SetCount(prevCount=> prevCount-1)}>Decrement</button>
-        <button onClick={()=>SetCount(initialCount)}>Reset</button>
+        <button className="btn btn-success me-2" onClick={()=>SetCount(prevCount=> prevCount+1)}>Increment</button> 
+        <button className="btn btn-info me-2" onClick={()=>SetCount(prevCount=> prevCount-1)}>Decrement</button>
+        <button className="btn btn-danger me-2" onClick={()=>SetCount(initialCount)}>Reset</button>
     </div>
   )
 }
